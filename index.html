@@ -3,12 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="дельфинарий, дельфинотерапия, донузлав, евпатория, крым, база отдыха"> 
     <title>Дельфинарий Нептун</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="svg-waves-main.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800,900&amp;subset=cyrillic" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="assets/particles.min.js"></script>
     <script src="main.js"></script>    
 </head>
 <body>
@@ -18,79 +18,73 @@
             <img class="logo" src="images/neptun_logo_white.png" alt="Логотип дельфинария Нептун, Нептун держит трезубец, на волнах дельфины">
             <nav>
                 <ul>
-                    <li>О нас</li>
-                    <li>Галерея</li>
-                    <li>Услуги</li>
-                    <li>Дельфинотерапия</li>
-                    <li>Контакты</li>
+                    <li><a href="http://">О нас</a></li>
+                    <li><a href="">Галерея</a></li>
+                    <li><a href="">Услуги</a></li>
+                    <li><a href="">Дельфинотерапия</a></li>
+                    <li><a href="">Контакты</a></li>
                 </ul>
             </nav>
         </div>
         
 
         <div class="waves" >
-            <svg viewBox="0 0 120 28">
-                <defs> 
-                <mask id="xxx">
-                    <circle cx="7" cy="12" r="40" fill="#fff" />
-                </mask>
+            <svg viewBox="0 0 120 20">
                 
-                <filter id="goo">
-                    <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" />
-                    <feColorMatrix in="blur" mode="matrix" values="
-                        1 0 0 0 0  
-                        0 1 0 0 0  
-                        0 0 1 0 0  
-                        0 0 0 13 -9" result="goo" />
-                    <feBlend in="SourceGraphic" in2="goo" />
-                    </filter>
+                <defs> 
                     <path id="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
                 </defs> 
-                
-                <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2" ></use> 
-                <use id="wave2" class="wave" xlink:href="#wave" x="0" y="0" ></use>
-                
 
-                <g class="gooeff">
-                    <!-- <circle class="drop drop1" cx="20" cy="2" r="1.8"  />
-                    <circle class="drop drop2" cx="25" cy="2.5" r="1.5"  />
-                    <circle class="drop drop3" cx="16" cy="2.8" r="1.2"  /> -->
-                    <use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />   
-                </g>            
+                <use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />                   
+                <use id="wave2" class="wave" xlink:href="#wave" x="0" y="0" ></use>
+                <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2" ></use> 
+                                            
             </svg>            
             
         </div>    
     </header>
 
 
-    <div class="content">
-
-        <div id="particles-js"></div>
+    <main>     
         
-        <div class="section">            
-            <img src="images/location-ico.png" alt="locatin-icon"/>
-            <p>Дельфинарий «Нептун» расположен в 36 км от г.Евпатория, на юго-западном берегу Крыма. Территория дельфинария расположена на берегу озера Донузлав. Самого глубокого соленого озера в Крыму.</p>
+        <div class="content-wrapper location-wrapper">
+            <div class="section location">            
+                <img class="location-icon" src="images/location-ico.png" alt="locatin-icon"/>
+                <p>Дельфинарий «Нептун» расположен в 36 км от г.Евпатория, на юго-западном берегу Крыма. Территория дельфинария расположена на берегу озера Донузлав. Самого глубокого соленого озера в Крыму.</p>
+                <img class="donuzlav" src="images/donuzlav_from_sky.jpg" alt="Озеро Донузлав с высоты птичьего полета">
+            </div>
+            <div id="particles-js"></div>
         </div>
-        <div class="section">
-            <p>Здесь Вы сможете поплавать с Черноморскими дельфинами Афалина.</p>
+
+
+        <div class="content-wrapper afalina-wrapper">
+            <div class="section afalina">
+                <p>Здесь Вы сможете поплавать с Черноморскими дельфинами Афалина.</p>
+            </div>
         </div>
+        
+
         <div class="section">
             <p>Плаванье с дельфинами – не только приятное занятие, но и польза для Вашего здоровья.</p>
         </div>
+
         <div class="section">
             <p>Все желающие могут полюбоваться этими прекрасными млекопитающими, понаблюдать за их жизнью, процессом кормления и тренировками.</p>
         </div>
+
         <div class="section">
             <p>Территория дельфинария обустроена специально для комфортного отдыха всей семьей: обустроенная зона отдыха у воды, шезлонги, навесы, мини-зоопарк, детская площадка, детский бассейн, развлекательная программа для детей, кафе, сувенирная лавка.</p>
         </div>
+
         <div class="section">
             <p>Порадуйте себя и своих близких яркими ощущениями от полноценного отдыха  на берегу озера Донузлав.</p>
         </div>
+
         <div class="section">
             <p>Дельфинарий «Нептун» не проводит шоу с морскими обитателями, но все желающие могут полюбоваться красочной программой в г.Евпатория. Шоу программа с участием черноморских дельфинов, белых китов, морских котиков и львов проходит в Евпаторийском Дельфинарии по адресу: г.Евпатория, ул.Киевская, 19/20</p>
         </div>        
+
         
-        <img src="" alt="">
-    </div>  
+    </main>  
 </body>
 </html>
