@@ -62,11 +62,12 @@ header button {
   border: 1px solid white;
   justify-self: center;
   transition: transform 0.4s;
+  cursor: pointer;
 }
 
 header button:hover {
   transform: scale(1.2);
-  transition: transform 0.4s;
+  transition: transform 0.4s;  
 }
 
 
@@ -161,9 +162,31 @@ main .section {
   margin: 2em auto;
 }
 
+
+.content-wrapper { 
+  background-size: cover;
+  z-index: 1;
+}
+
+.content-wrapper p {  
+  text-shadow: 1px 1px 1px black;  
+  color: white;
+  margin-bottom: 2em;
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 0.9em;    
+}
+
 .location-wrapper {
   background: #4478e3;
-  background-image: linear-gradient(to bottom, #4478e3 13%, #00194c 100% );
+  background-image: linear-gradient(to bottom, #4478e3 13%, #00194c 100% );  
+}
+
+.location-wrapper p {
+  line-height: 1.4em;
+  font-size: 1.1em;
+  margin-top: 0;
+  font-weight: 400;
 }
 
 .location .location-icon {
@@ -178,28 +201,38 @@ main .section {
   box-shadow: 1px 1px 18px #1c3a5f;
   position: relative;
   z-index: 1;
+  margin-bottom: 4em;
 }
 
-main p {
-    /* width: 30em; */
-    color: white;
-    margin-top: 0;
-    margin-bottom: 2em;
-    line-height: 1.4em;
-    font-size: 1.1em;
+
+.content-wrapper p:nth-child(1) {
+  height: 78vh;
+  
 }
 
 .afalina-wrapper {
-  background-image: url('images/afalina_swimming.jpg');
-  height: 78vh;
-  background-size: cover;
-  z-index: 1;
+  background-image: url('images/afalina_swimming.jpg');    
 }
 
-.afalina p {
-  font-size: 2em;
-  font-weight: 700;
-  line-height: 0.9em;
-  text-shadow: 1px 1px 1px black;
+.health-wrapper {
+  background-image: url('images/health_swimming.jpg');  
 }
+
+.everyone-wrapper {
+  background-image: url('images/everyone.jpg');  
+}
+
+.territory-wrapper {
+  background-image: url('images/territory1.jpg');  
+}
+
+.fun-wrapper {
+  background-image: url('images/fun.jpg');  
+}
+
+.show-wrapper {
+  background-image: url('images/show.jpg');  
+}
+
+
 
