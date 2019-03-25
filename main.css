@@ -137,6 +137,7 @@ main .section {
 
 .location-wrapper {
   background: #4478e3;
+  background-image: linear-gradient(to bottom, #4478e3 13%, #00194c 100% );
 }
 
 .location .location-icon {
@@ -148,7 +149,7 @@ main .section {
 .location img.donuzlav {
   max-width: 100%;
   border-radius: 35px;
-  box-shadow: 1px 1px 18px #046db5;
+  box-shadow: 1px 1px 18px #1c3a5f;
   position: relative;
   z-index: 1;
 }
@@ -166,6 +167,7 @@ main p {
   background-image: url('images/afalina_swimming.jpg');
   height: 78vh;
   background-size: cover;
+  z-index: 1;
 }
 
 .afalina p {

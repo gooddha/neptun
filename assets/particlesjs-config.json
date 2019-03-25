@@ -71,14 +71,14 @@
     "detect_on": "canvas",
     "events": {
       "onhover": {
-        "enable": true,
+        "enable": false,
         "mode": "bubble"
       },
       "onclick": {
         "enable": false,
         "mode": "repulse"
       },
-      "resize": true
+      "resize": false
     },
     "modes": {
       "grab": {
